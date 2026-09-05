@@ -1,0 +1,22 @@
+JESSICA GOURMET - VERSAO PRONTA PARA GITHUB PAGES
+
+VOCE NAO PRECISA USAR GIT, POWERSHELL OU ARQUIVO .BAT.
+
+PASSO A PASSO:
+
+1) Extraia este ZIP.
+2) Abra seu repositorio JessicaGeladinho no GitHub.
+3) Apague/substitua os arquivos antigos e envie TODO o conteudo desta pasta.
+   Envie tambem as pastas: .github, public, src e supabase.
+4) Em Settings > Pages deixe Source = GitHub Actions.
+5) Em Settings > Secrets and variables > Actions mantenha:
+   VITE_SUPABASE_URL
+   VITE_SUPABASE_ANON_KEY
+6) Abra a aba Actions e aguarde "Deploy Jessica Gourmet to GitHub Pages" ficar verde.
+7) Abra o site e use Ctrl + F5.
+
+IMPORTANTE:
+- Nao envie seu arquivo .env para o GitHub.
+- A pasta .github e obrigatoria: ela faz o React/Vite ser compilado corretamente.
+- O botao "Ver sabores" ja foi corrigido para nao conflitar com o HashRouter.
+- O caminho de publicacao e detectado automaticamente pelo nome do repositorio GitHub.
